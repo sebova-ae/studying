@@ -1,13 +1,22 @@
 .grid-container {
     display: grid;
     /*gap: 10px;*/
-    column-gap: 15px;
-    row-gap: 5px;
+    /*column-gap: 15px;*/
+    /*row-gap: 5px;*/
     grid-template-columns: 100px 1fr 150px; /*количество колонок (3) + ширина элементов слева направо*/
     grid-template-rows: 200px 400px 150px; /*кол-во рядов (3+) длина элементов ряда по бокам сверху вниз*/
     /*при добавлении еще рядов - они занимают высоту = содержание + паддинги*/
+    outline: solid gold 2px;
+    gap: 10px;
+    padding: 10px;
+}
+
+div {
+    outline: solid lightcoral 2px;
 }
 
 .flex-container {
     display: flex;
+    outline: solid gold 2px;
+    padding: 10px;
 }
